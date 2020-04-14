@@ -7,6 +7,12 @@ import datetime
 from pynput.mouse import Listener
 import pyautogui as pgui
 
+
+###
+# It logs mouse position and makes screenshot every click, double click and drag/drop event.
+# It useful for making efficient manual to instruct people some PC work from the viw point of visualizing.
+# A mouse cursor image is needed.
+###
 class Track_Mouse():
     def __init__(self,save_dir='',double_click_interval=0.5,path_to_cursor_img='cursor_img.png'):
         self.flag = True
