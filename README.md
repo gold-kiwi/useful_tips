@@ -1,2 +1,2 @@
 # useful_tips
-for open
+It includes some useful function, class, program and so on.
