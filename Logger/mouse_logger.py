@@ -115,5 +115,7 @@ def main():
         with Listener(on_move=tm.on_move,on_click=tm.on_click,on_scroll=tm.on_scroll) as listener:
             listener.join()
 
+    print('RECORD FINISH')
+
 if __name__ == '__main__':
     main()
