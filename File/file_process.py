@@ -32,3 +32,9 @@ def get_directory_list(dir_path,with_dir_path=True):
 
     return true_list
 
+def main():
+    dir_path = './dir'
+    ext = '.png'
+    flist = get_file_list(dir_path,ext=ext)
+if __name__ == '__main__':
+    main()
